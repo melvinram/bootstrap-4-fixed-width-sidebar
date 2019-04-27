@@ -1,0 +1,73 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="../../favicon.ico">
+
+    <title>Bootstrap 4 w/ Fixed Width Sidebar</title>
+
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+
+<body>
+<div class="container-fluid">
+    <div class="row">
+        <div class="sidebar">
+            <ul class="nav nav-sidebar">
+                <li class="nav-item"><a class="nav-link active" href="#" data-toggle="tooltip" data-placement="right" title="Brand Name" data-boundary="window">B</a></li>
+                <li class="nav-item"><a class="nav-link" href="#" data-toggle="tooltip" data-placement="right" title="Dashboard" data-boundary="window"><i class="fas fa-home"></i></a></li>
+                <li class="nav-item"><a class="nav-link" href="#" data-toggle="tooltip" data-placement="right" title="Nav Item 1" data-boundary="window"><i class="fas fa-address-card"></i></a></li>
+                <li class="nav-item"><a class="nav-link" href="#" data-toggle="tooltip" data-placement="right" title="Nav Item 2" data-boundary="window"><i class="fas fa-atom"></i></a></li>
+                <li class="nav-item"><a class="nav-link" href="#" data-toggle="tooltip" data-placement="right" title="Nav Item 3" data-boundary="window"><i class="fas fa-robot"></i></a></li>
+                <li class="nav-item"><a class="nav-link" href="#" data-toggle="tooltip" data-placement="right" title="Log Out" data-boundary="window"><i class="fas fa-sign-out-alt"></i></a></li>
+            </ul>
+        </div>
+
+        <div class="col main">
+            <div class="row">
+                <div class="col page">
+                    <h1 class="page-header">Dashboard</h1>
+                    <div class="row">
+                        <div class="col">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed tristique mattis erat, eget commodo diam aliquam eu. Cras lacus massa, bibendum sed massa eget, auctor vestibulum odio. Suspendisse potenti. Donec viverra fermentum lacus, ac accumsan ante convallis a. Morbi eget orci eu odio molestie congue sit amet rutrum lorem. Fusce semper ac neque sit amet faucibus. Praesent gravida pellentesque magna, et gravida turpis. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. In orci magna, suscipit sed magna maximus, dignissim fermentum nunc.</p>
+                        </div>
+                        <div class="col">
+                            <p>Donec mauris ante, cursus quis mi ut, convallis accumsan tellus. Proin ultrices nec metus non euismod. Sed orci dui, tincidunt quis magna dapibus, scelerisque sollicitudin risus. Vestibulum sit amet lorem sit amet quam cursus venenatis id sed velit. Aenean nec justo in neque hendrerit tempus. In in ex non lacus viverra iaculis sit amet ac tortor. Curabitur magna tortor, ultrices a ullamcorper tincidunt, lacinia sed velit. Curabitur eu dignissim lorem. Ut fringilla viverra elit id pulvinar. Mauris suscipit tincidunt elit non pulvinar. Suspendisse accumsan, eros sed molestie finibus, dolor lectus sagittis tellus, eu facilisis velit erat sed lectus.</p>
+                        </div>
+                        <div class="col">
+                            <p>Morbi ornare orci ut velit tempor, quis facilisis augue placerat. Maecenas ex libero, sodales in lobortis at, tincidunt at risus. Phasellus eu bibendum augue. Curabitur rhoncus semper lacinia. Fusce eros dolor, sodales id iaculis at, tempus imperdiet mauris. Nulla facilisi. Nulla non purus non neque porttitor accumsan. Curabitur pretium eleifend tortor. In molestie iaculis nunc.</p>
+                        </div>
+                        <div class="col">
+                            <p>Nunc efficitur, est at sagittis scelerisque, ex elit sodales quam, at lacinia turpis nibh ac mi. Morbi posuere eget dui mollis commodo. Sed hendrerit vestibulum aliquet. Aliquam imperdiet est libero, vel vehicula nibh suscipit eget. Nam consectetur urna rutrum nisi auctor, at aliquet eros placerat. Suspendisse imperdiet ex eu pulvinar posuere. Integer eget blandit quam, a luctus magna. Proin semper gravida orci, eu maximus dolor dictum et. Morbi scelerisque neque ut metus vulputate varius. Interdum et malesuada fames ac ante ipsum primis in faucibus. Sed varius, sapien in iaculis scelerisque, tellus sapien molestie enim, non malesuada orci ligula at risus.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Bootstrap core JavaScript
+================================================== -->
+<!-- Placed at the end of the document so the pages load faster -->
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+<script src="script.js"></script>
+</body>
+</html>
